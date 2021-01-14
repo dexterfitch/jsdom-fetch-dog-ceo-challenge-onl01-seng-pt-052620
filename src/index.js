@@ -2,6 +2,7 @@ console.log("%c HI", "color: firebrick");
 
 const apiPicUrl = "https://dog.ceo/api/breeds/image/random/4";
 const apiBreedUrl = "https://dog.ceo/api/breeds/list/all";
+const dropdown = document.getElementById("breed-dropdown");
 
 function getDogImages() {
   return fetch(apiPicUrl)
